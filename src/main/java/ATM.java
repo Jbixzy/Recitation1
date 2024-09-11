@@ -23,7 +23,7 @@ public class ATM {
        remainder = remainder%.10;
        int nickels = (int)(remainder/.05);
        remainder = remainder%.05;
-       int pennies = (int)(remainder/.01);
+       int pennies = (int)((remainder/.01)+.01);
        remainder = remainder%.01;
 
 
