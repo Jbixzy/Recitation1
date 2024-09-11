@@ -24,6 +24,7 @@ public class ATM {
        int nickels = (int)(remainder/.05);
        remainder = remainder%.05;
        int pennies = (int)(remainder/.01);
+       remainder = remainder%.01;
 
 
         System.out.println(amount+" contains:");
